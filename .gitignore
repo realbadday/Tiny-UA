@@ -1,0 +1,56 @@
+# Virtual Environment
+tinyllama_env/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Cache files
+*.cache
+response_cache.json
+codegen_cache.json
+unified_cache.json
+
+# Backup files
+*.backup
+*.backup2
+*.bak
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Model files (too large)
+models/test-run/
+*.bin
+*.safetensors
+
+# Temporary files
+=*
+temp/
+tmp/
+
+# Distribution
+dist/
+build/
+*.egg-info/

@@ -1,0 +1,11 @@
+question,answer
+"How do I create a list in Python?","[""You can create a list in Python using square brackets: my_list = [1, 2, 3] or my_list = ['a', 'b', 'c']. You can also create an empty list with my_list = [] or my_list = list().""]"
+"What is a Python dictionary?","[""A dictionary in Python is a collection of key-value pairs. You create it using curly braces: my_dict = {'key': 'value', 'name': 'John'}. Dictionaries are mutable and unordered.""]"
+"How do I read a file in Python?","[""You can read a file in Python using: with open('filename.txt', 'r') as f: content = f.read(). This is the recommended way as it automatically closes the file.""]"
+"What is a for loop in Python?","[""A for loop in Python iterates over a sequence: for item in sequence: print(item). You can also use range(): for i in range(5): print(i).""]"
+"How do I define a function in Python?","[""You define a function in Python using the 'def' keyword: def my_function(parameter): return parameter * 2. Functions can take parameters and return values.""]"
+"What is the difference between list and tuple?","[""Lists are mutable (can be changed) and use square brackets [1, 2, 3]. Tuples are immutable (cannot be changed) and use parentheses (1, 2, 3).""]"
+"How do I handle exceptions in Python?","[""Use try-except blocks: try: risky_code() except Exception as e: handle_error(e). You can catch specific exceptions or use a general Exception.""]"
+"What are Python decorators?","[""Decorators are functions that modify other functions. Use @decorator_name above a function definition. They're commonly used for logging, timing, or authentication.""]"
+"How do I import modules in Python?","[""You can import modules using: import module_name, from module_name import function_name, or import module_name as alias.""]"
+"What is list comprehension?","[""List comprehension is a concise way to create lists: new_list = [expression for item in iterable if condition]. Example: squares = [x**2 for x in range(10)].""]"
