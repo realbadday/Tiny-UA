@@ -1,0 +1,17 @@
+# Core dependencies for TinyLlama Programming Assistant
+torch>=2.0.0
+transformers>=4.35.0
+peft>=0.7.0  # For LoRA fine-tuning
+accelerate>=0.25.0  # For efficient loading
+
+# Optional but recommended
+pyttsx4  # Text-to-speech support
+tqdm  # Progress bars for training
+
+# Development tools (optional)
+black  # Code formatting
+pytest  # Testing
+ipython  # Better REPL
+
+# Note: For CPU-only PyTorch, install with:
+# pip install torch --index-url https://download.pytorch.org/whl/cpu

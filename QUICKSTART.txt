@@ -1,0 +1,36 @@
+🚀 TinyLlama Programming Assistant - Quick Start Guide
+====================================================
+
+1. INITIAL SETUP (one-time only):
+   ./setup.sh
+   
+   This will:
+   - Create a virtual environment
+   - Install all dependencies (~6GB download)
+   - Set up voice support (optional)
+   - Download the TinyLlama model (~1.1GB)
+
+2. LAUNCH THE ASSISTANT:
+   ./launch.sh
+   
+   Or with options:
+   ./launch.sh --tts        # Enable voice output
+   ./launch.sh --help       # Show all options
+
+3. USE FROM MAIN MENU:
+   cd ~/chat
+   python chat.py
+   # Select option 5
+
+4. DIFFERENT MODES:
+   ./launch.sh -m code "binary search"      # Code generation
+   ./launch.sh -m explain "decorators"      # Explanations
+   ./launch.sh -m debug "[paste code]"      # Debug help
+   ./launch.sh -m plan "REST API project"   # Task planning
+
+5. TRAIN ON YOUR DATA (OPTIONAL):
+   ./launch.sh train --dataset your_data.csv
+
+Note: The source package is only 87KB, but setup downloads ~6GB of ML dependencies.
+
+For full docs, see README.md

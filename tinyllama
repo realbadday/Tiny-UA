@@ -1,0 +1,15 @@
+#!/bin/bash
+# TinyLlama launcher
+
+# Activate virtual environment if it exists
+if [ -d "tinyllama_env" ]; then
+    source tinyllama_env/bin/activate
+fi
+
+# Default to programming assistant
+if [ $# -eq 0 ]; then
+    python3 ~/tinyllama/programming_assistant.py
+else
+    # Pass all arguments
+    python3 ~/tinyllama/programming_assistant.py "$@"
+fi
